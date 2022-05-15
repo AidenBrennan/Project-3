@@ -38,9 +38,11 @@ artJacent intends to provide artwork developers a safe place to display their ar
 It's also an application that will enable artwork developers to network and form collaborations with other people on future projects.
 E.g. a sculpturist can display their work on artJacent. If an interior designer may of happen to view their work, and is interest in this person's work. artJacent will enable the interior designer to network with the sculpturist.
 
+
 ## Motivation:
 
 Art is a forever growing passionate interest, that plays an important role in the aesthetic aspect of our daily life. Our motivation is to provide a place where artwork developers can safely display their work and connect with future collaborators.
+
 
 ## Details of our application:
 
@@ -54,7 +56,7 @@ Art is a forever growing passionate interest, that plays an important role in th
 
 ## FRAMEWORK for App Design:
 
-
+{Insert image here
 
 
 
@@ -70,7 +72,7 @@ Art is a forever growing passionate interest, that plays an important role in th
 
 ## the COFFEE MARKET in the making
 
-<img src="https://user-images.githubusercontent.com/94832331/159162727-ab6aab78-325b-4333-ba8c-8ffb53d9b67c.png" width="300" height="150">  <img src="https://user-images.githubusercontent.com/94832331/159162235-f20c8aee-fdfe-491e-993c-660236ea21aa.png" width="300" height="150">
+{Insert image here}
 
 
 
