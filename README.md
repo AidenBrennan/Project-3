@@ -57,7 +57,8 @@ We would like to create a virtual place where coffee enthusiast can come to expl
 
 ## FRAMEWORK for App Design:
 
-<image src="https://user-images.githubusercontent.com/94832331/168458475-fabb9a53-09e8-4e75-8401-0266ffbceed8.png" width=600 height=300>
+<image src="https://user-images.githubusercontent.com/94832331/168458475-fabb9a53-09e8-4e75-8401-0266ffbceed8.png" width=600 height=300> <image src="https://user-images.githubusercontent.com/94832331/168458615-9668ff73-9e5d-48b8-94a1-98c26ba91022.png" width=600 height=300>
+
 
 
 
