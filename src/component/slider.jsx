@@ -115,7 +115,7 @@ const [slideIndex, setSlideIndex] = useState(0);
                         <Image src={item.image}/>
                     </ImageContainer>
                     <ProductInfoContainer>
-                        <Heading>{item.heading} </Heading>
+                        <Heading>{item.heading}</Heading>
                         <Description>{item.description}</Description>
                         <Button>ENTER</Button>
                     </ProductInfoContainer>

@@ -26,7 +26,7 @@ justify-center:center;
 `;
 const Title = styled.h1`
 color:#FFFEF7;
-margin-bottom:150px;
+margin-bottom:70px;
 `;
 const Button = styled.button`
 border:none;
@@ -35,18 +35,15 @@ border-radius: 5px;
 border-color:#CCAE88;
 color:#3C2218;
 cursor: pointer;
-postion:relative;
-right:25px;
-
 `;
 
 const CategoryItem = ({ item }) => {
     return (
         <Container>
-            <Image src={item.image} />
+            <Image src={item.image} key={item.id}/>
             <ProductInfo>
                 <Title>{item.heading}</Title>
-                <Button>ShOP NOW</Button>
+                <Button>SHOP NOW</Button>
             </ProductInfo>
         </Container>
     )
