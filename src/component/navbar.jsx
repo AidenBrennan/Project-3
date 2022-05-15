@@ -78,7 +78,7 @@ const navbar = () => {
                     </Searchcontainer>
 
                 </Left>
-                <Center><Logo>The Coffee Market</Logo></Center>
+                <Center><Logo>the COFFEE MARKET</Logo></Center>
                 <Right>
 
                     <MenuItems>REGISTER</MenuItems>
