@@ -4,12 +4,12 @@ import { Search, ShoppingBasketOutlined } from "@material-ui/icons";
 import React from "react"
 import styled from "styled-components"
 
-const container = styled.div`
-    height:60px;
-    background-color: #3d0c02;
+const Container = styled.div`
+    height:100px;
+    background-color: #3C2218;
 `;
 
-const Wrapper = styled.dib`
+const Wrapper = styled.div`
 padding: 10px 20px;
 display: flex;
 align-item: center;
@@ -17,31 +17,33 @@ justify-content: space-between;
 
 `;
 
-const left = styled.div`
+const Left = styled.div`
 flex: 1;
 `;
 
 const Language = styled.span`
 font-size:14px;
 cursor: pointer;
+color:white;
 `;
 
-const search_container = styled.div`
-border: 1px solid white;
+const Searchcontainer = styled.div`
 display:flex;
 align-item:center;
-margin: 25px;
+margin-left: 25px;
 padding:5px;
 
 `;
-const Input = styled.div`
-border: none;
+const Input = styled.input`
+border:none;
+border: 1px solid #FFFEF7;
 `;
 
 
-const center = styled.div`
+const Center = styled.div`
 flex:1;
 text-align:center;
+color:#FFFEF7;
 
 `;
 
@@ -50,47 +52,48 @@ font-weight: bold;
 `;
 
 
-const right = styled.div`
+const Right = styled.div`
 flex:1;
 display: flex;
 align-items: center;
 justify-content: flex-end;
 `;
 
-const menuItems = styled.div`
+const MenuItems = styled.div`
  font-size: 14px;
  cursor: pointer;
+ color: #FFFEF7;
  margin-left:25px;
 `;
 
 const navbar = () => {
     return (
-        <container>
+        <Container>
             <Wrapper>
-                <left>
+                <Left>
                     <Language>English</Language>
-                    <search_container>
-                        input
+                    <Searchcontainer>
+                        <Input/>
                         <Search style={{ color: "white", fontSize: 16 }} />
-                    </search_container>
+                    </Searchcontainer>
 
-                </left>
-                <center><Logo>Coffee Market Place</Logo></center>
-                <right>
+                </Left>
+                <Center><Logo>The Coffee Market</Logo></Center>
+                <Right>
 
-                    <menuItems>REGISTER</menuItems>
-                    <menuItems>SIGN IN</menuItems>
-                    <menuItems>
+                    <MenuItems>REGISTER</MenuItems>
+                    <MenuItems>SIGN IN</MenuItems>
+                    <MenuItems>
                         <Badge badgeContent={4} color="primary">
                             <ShoppingBasketOutlined />
                         </Badge>
 
-                    </menuItems>
+                    </MenuItems>
 
-                </right>
+                </Right>
 
             </Wrapper>
-        </container>
+        </Container>
     )
 }
 

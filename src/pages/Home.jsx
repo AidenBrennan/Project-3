@@ -1,12 +1,18 @@
-import React from 'react'
-import navbar from '../component/navbar'
+import React from 'react';
+import Navbar from '../component/navbar';
+import Announcements from '../component/announcements';
+import Slider from '../component/slider';
+import Categories from '../component/categories'
 
 const Home = () => {
   return (
     <div className='container'>
-      <navbar/>
+      <Announcements/>
+      <Navbar/>
+      <Slider/>
+      <Categories/>
       </div>
-  )
-}
+  );
+};
 
 export default Home
