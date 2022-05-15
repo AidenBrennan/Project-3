@@ -1,4 +1,4 @@
-# the COFFEE MARKET
+``# the COFFEE MARKET
 
 ## Collaborators:
 
@@ -33,20 +33,21 @@
 
 ## Project Description:
 
-artJacent intends to provide artwork developers a safe place to display their artwork to interested parties for view. Their artwork will only be available to exclusive people, whom have signed up to our application.
-
-It's also an application that will enable artwork developers to network and form collaborations with other people on future projects.
-E.g. a sculpturist can display their work on artJacent. If an interior designer may of happen to view their work, and is interest in this person's work. artJacent will enable the interior designer to network with the sculpturist.
+the COFFEE MARKET intends to provide coffee enthusiast a virtual place to explore different coffees; and the convinence of purchasing all they need to brew the perfect cup at home. 
 
 
 ## Motivation:
 
-Art is a forever growing passionate interest, that plays an important role in the aesthetic aspect of our daily life. Our motivation is to provide a place where artwork developers can safely display their work and connect with future collaborators.
+Coffee has a rich history and cultural connection; which over the many different generations continue to be shared and loved. For this reason, we continue to see the steady demand and trend for coffee. 
+
+To help facilitate the demand for coffee to our current and next generation of computer savy culture; we have created this web application, which we intend to expand in the future to make it more than just a place to purchase your favourite coffee.
+
+We would like to create a virtual place where coffee enthusiast can come to explore different coffee, order and purchase different coffee products from around the worid, and barista equipment.
 
 
 ## Details of our application:
 
-* MERN Full Stack
+* MERN FullStack
 
 **********************************************
 ## LINK TO DEPLOY APPLICATION
@@ -78,8 +79,6 @@ Art is a forever growing passionate interest, that plays an important role in th
 
 
 ## Key Features
-
-- Responsive.
 
 - Interactive (i.e., accept and respond to user input).
 
