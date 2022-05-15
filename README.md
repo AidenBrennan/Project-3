@@ -57,7 +57,7 @@ We would like to create a virtual place where coffee enthusiast can come to expl
 
 ## FRAMEWORK for App Design:
 
-{Insert image here
+
 
 
 
@@ -73,8 +73,8 @@ We would like to create a virtual place where coffee enthusiast can come to expl
 
 ## the COFFEE MARKET in the making
 
-{Insert image here}
 
+<image src="https://user-images.githubusercontent.com/94832331/168455063-39e5f132-84c8-4a06-9f4d-54cfe04c6075.png">
 
 
 
