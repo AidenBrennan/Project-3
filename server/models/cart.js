@@ -8,6 +8,5 @@ const CartSchema = new Schema(
   { timestamps: true }
 );
 
-const cart = model('cart', CartSchema);
 
-module.exports = cart
+module.exports = CartSchema
