@@ -7,8 +7,8 @@ const {
     getSingleproduct,
 } = require('../../controllers/productcontrollers')
 
-router.route('./').post(createproduct);
+router.route('/').post(createproduct);
 
-router.route('./:id').put(updateproduct).delete(removeproduct).get(getSingleproduct)
+router.route('/:id').put(updateproduct).delete(removeproduct).get(getSingleproduct)
 
-
+module.exports = router;
