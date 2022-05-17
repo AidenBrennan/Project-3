@@ -24,7 +24,7 @@ module.exports = {
             .catch((err) => res.status(500).json(err));
         },
     getSinglecart(req, res) {
-            product.findOne(
+            cart.findOne(
                 { _id: req.params.cartId }
                 )
             .then((cart) => res.json(cart))

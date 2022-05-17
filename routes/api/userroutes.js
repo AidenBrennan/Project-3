@@ -7,4 +7,6 @@ const {
 
 router.route('./').post(createuser);
 
-router.route('./:id').delete(deleteuser)
+router.route('./:userid').delete(deleteuser)
+
+module.exports = router;

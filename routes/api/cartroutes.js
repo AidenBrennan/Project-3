@@ -2,7 +2,7 @@ const router = require("express").Router();
 
 
 const {
-    getsinglecart,
+    getSinglecart,
     createcart,
     deletecart,
     additemtocart,
@@ -10,10 +10,10 @@ const {
     buycart
 } = require('../../controllers/cartcontrollers');
 
-router.route('./').post(createcart);
+router.route('/').post(createcart);
 
-router.route('./:id').get(getsinglecart).delete(deletecart).post(buycart);
+router.route('/:id').get(getSinglecart).delete(deletecart).post(buycart);
 
-router.route('./:id/product').post(additemtocart);
+router.route('/:id/product/:id').post(additemtocart).delete(removeproductfromcart);
 
-router.route('./cartId/product/:/productId').delete(removeproductfromcart);
+module.exports = router;

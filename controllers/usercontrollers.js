@@ -14,7 +14,7 @@ module.exports = {
         .catch((err) => res.status(500).json(err));
       },
       addcarttouser(req, res) {
-        cart.findOneAndUpdate(
+        user.findOneAndUpdate(
                 { _id: req.params.userId },
                 { $addToSet: { cart: req.body } },
                 { runValidators: true, new: true }

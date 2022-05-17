@@ -11,6 +11,4 @@ const ProductSchema = new Schema(
   },
 );
 
-const product = model('product', ProductSchema);
-
-module.exports = product
+module.exports = ProductSchema
