@@ -24,6 +24,7 @@ module.exports = {
             .catch((err) => res.status(500).json(err));
         },
     getSinglecart(req, res) {
+
             cart.findOne(
                 { _id: req.params.cartId }
                 )
@@ -40,3 +41,4 @@ module.exports = {
         buycart(req, res) {
         },
 }
+
