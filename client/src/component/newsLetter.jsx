@@ -1,5 +1,6 @@
-import { Send } from '@material-ui/icons'
-import styled from 'styled-components'
+import { Send } from '@material-ui/icons';
+import styled from 'styled-components';
+import {mobile} from "../responsive";
 
 const Container = styled.div`
 height:60vh;
@@ -21,6 +22,7 @@ font-size:24px;
 font-weight:300;
 margin-bottom:20px;
 color:#FFFEF7;
+${mobile({textAlign:"center"})};
 
 
 `;
@@ -32,6 +34,7 @@ background-color:#FFFEF7;
 display:flex;
 justify-content:space-between;
 border:1px solid white,
+${mobile({width:"80%"})};
 
 `;
 

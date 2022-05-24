@@ -1,24 +1,29 @@
-import { Email, Facebook, Instagram, Phone, Twitter } from '@material-ui/icons'
-import styled from 'styled-components'
+import { Email, Facebook, Instagram, Phone, Twitter } from '@material-ui/icons';
+import styled from 'styled-components';
+import {mobile} from '../responsive';
 
 const Container = styled.div`
 display:flex;
 background-color:#CCAE88;
+${mobile({flexDirection:"column", height:"50%"})};
 `;
 const  Left = styled.div`
 flex:1;
 display:flex;
 flex-direction:column;
 padding:20px;
+${mobile({fontSize:"10px", margin:"5px 5px"})};
 `;
+
 const Center = styled.div`
 flex:1;
 padding:20px;
-
+${mobile({display:"none"})};
 `;
 
 const Title =styled.h3`
 margin-bottom:30px;
+${mobile({fontSize:"10px"})};
 
 `;
 
@@ -28,25 +33,32 @@ padding:0;
 list-style:none;
 display:flex;
 flex-wrap:wrap;
+${mobile({fontSize:"10px"})};
 
 `;
 
 const ListItems = styled.li`
 width:50%;
 margin-bottom: 10px;
+${mobile({fontSize:"10px", width:"25px"})};
 `;
 
 const Right = styled.div`
 flex:1;
 padding:20px;
+${mobile({fontSize:"10px",display:"flex",flexDirection:"column",  alignItems:"right",position:"relative",bottom:"50px"})};
+
 `;
+
 const Logo = styled.h1`
 color:#3C2218;
+${mobile({fontSize:"10px"})};
 
 `;
 const Description = styled.p`
 color:#3C2218;
 margin:20px 0px;
+${mobile({display:"none"})};
 
 `;
 
@@ -60,7 +72,7 @@ display:flex;
 align-items:center;
 justify-content: center;
 margin-right:20px;
-
+${mobile({margin:"25px 5px"})};
 
 `;
 const Socialcontainer =styled.div`
@@ -73,7 +85,6 @@ const ContactItem=styled.div`
 margin-bottom:20px;
 display:flex;
 align-items: center;
-
 `
 const Payment = styled.image`
 width:50%;
